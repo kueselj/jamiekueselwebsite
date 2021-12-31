@@ -1,4 +1,4 @@
 # jamiekueselwebsite
 My Personal Website!
-View it here! 
+View it here! (NEW SITE NOT LIVE!!!)
 http://JamieKuesel.com
