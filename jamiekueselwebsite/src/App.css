@@ -1,0 +1,25 @@
+
+.app__wrapper {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.center {
+    padding-top: 1px;
+    background-color: cornflowerblue;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+    border-style: solid;
+    margin: 10px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1500px;
+
+}

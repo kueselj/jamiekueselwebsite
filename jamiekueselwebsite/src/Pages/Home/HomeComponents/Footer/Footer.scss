@@ -1,0 +1,43 @@
+.footer__wrapper {
+    border-style: solid;
+    border-color: black;
+    margin: 5px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    background-color: burlywood;
+
+    max-width: 1500px;
+    width: 100%;
+    
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+    .footer__icon__holder {
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    @media screen and (max-width: 700px) {
+        .footer__icon__holder {
+            width: 90%
+        }
+    }
+}
+
+.icon {
+    color: black;
+    font-size: 50px;
+    transition: 500ms;
+    
+    &:hover {
+        transform: scale(1.05);
+        transition: 500ms;
+    }
+}

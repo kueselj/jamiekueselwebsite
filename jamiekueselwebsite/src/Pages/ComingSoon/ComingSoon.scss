@@ -1,0 +1,29 @@
+@keyframes spinning {
+    25%   {color: red;} 
+    50%  {color: green;} 
+    75%  {color: blue;}
+    50%  {transform: scale(2);}     
+}
+
+  
+
+.coming__soon__wrapper {
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 30px;
+    
+    .coming__soon__text {
+
+    
+        animation-name: spinning;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        animation-timing-function: linear;
+    }
+
+
+}

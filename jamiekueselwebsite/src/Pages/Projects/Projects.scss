@@ -1,0 +1,28 @@
+.projects__wrapper {
+    border-style: solid;
+    background-color: burlywood;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    width: 100%;
+
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+
+    font-family: 'Courier',sans-serif;
+
+    .link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
