@@ -10,7 +10,6 @@ import ProjectPost from './Pages/Projects/ProjectPost/ProjectPost';
 import Connect from './Pages/Connect/Connect';
 
 import ComingSoon from './Pages/ComingSoon/ComingSoon';
-
 import Navbar from './Pages/Home/HomeComponents/Navbar/Navbar';
 import Footer from './Pages/Home/HomeComponents/Footer/Footer';
 
@@ -19,6 +18,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css"
 
 import BenchCalculator from './Pages/Projects/ManualPosts/BenchCalculator/BenchCalculator.js';
+
 import PerlinNoise from './Pages/Projects/ManualPosts/PerlinNoise/PerlinNoise';
 import ThisSite from './Pages/Projects/ManualPosts/ThisSite/ThisSite';
 
