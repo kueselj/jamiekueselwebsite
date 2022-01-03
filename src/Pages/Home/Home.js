@@ -1,18 +1,17 @@
 import React from "react";
 
-import Navbar from "./HomeComponents/Navbar/Navbar";
 import Bio from "./HomeComponents/Bio/Bio";
+import Skills from "./HomeComponents/Skills/Skills";
 import RecentProjects from "./HomeComponents/RecentProjects/RecentProjects";
-import Footer from "./HomeComponents/Footer/Footer";
 
-import "./Home.css"
-
+import "./Home.scss"
 
 const Home = () => {
 
     return (
         <div className="home__wrapper">
             <Bio/>
+            <Skills/>
             <RecentProjects/>
         </div>
     )
