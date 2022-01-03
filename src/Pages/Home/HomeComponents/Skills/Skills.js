@@ -4,6 +4,12 @@ import "./Skills.scss"
 
 import TextTag from "../../../../Components/TextTag/TextTag";
 
+import java from "../../../../Resources/Pictures/Logos/java.png"
+import scala from "../../../../Resources/Pictures/Logos/scala.png"
+import python from "../../../../Resources/Pictures/Logos/python.png"
+import html from "../../../../Resources/Pictures/Logos/html.png"
+
+
 const Skills = () => {
 
     return (
@@ -13,10 +19,10 @@ const Skills = () => {
             </div>
             <div className="skills__type__wrapper">
                 Languages:
-                <TextTag label="Java"/>
-                <TextTag label="Scala"/>
-                <TextTag label="Python"/>
-                <TextTag label="HTML"/>
+                <TextTag label="Java" img={java}/>
+                <TextTag label="Scala" img={scala}/>
+                <TextTag label="Python" img={python}/>
+                <TextTag label="HTML" img={html}/>
                 <TextTag label="CSS"/>
                 <TextTag label="JavaScript"/>
                 <TextTag label="C++"/>
@@ -26,9 +32,6 @@ const Skills = () => {
                 Frameworks:
                 <TextTag label="ReactJS"/>
                 <TextTag label="OpenCv"/>
-                <TextTag label="Cats"/>
-                <TextTag label="Akka"/>
-
             </div>
             <div className="skills__type__wrapper">
                 Software:
