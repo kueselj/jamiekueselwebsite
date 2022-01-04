@@ -29,25 +29,33 @@ const Skills = () => {
             </div>
             <div className="skills__type__wrapper">
                 Languages:
-                <TextTag label="Java" img={java}/>
-                <TextTag label="Scala" img={scala}/>
-                <TextTag label="Python" img={python}/>
-                <TextTag label="HTML" img={html}/>
-                <TextTag label="CSS" img={css}/>
-                <TextTag label="JavaScript" img={javascript}/>
-                <TextTag label="C++" img={cplusplus}/>
-                <TextTag label="C" img={c}/>
+                <div className="skills__tag__wrapper">
+                    <TextTag label="Java" img={java} />
+                    <TextTag label="Scala" img={scala} />
+                    <TextTag label="Python" img={python} />
+                    <TextTag label="HTML" img={html} />
+                    <TextTag label="CSS" img={css} />
+                    <TextTag label="JavaScript" img={javascript} />
+                    <TextTag label="C++" img={cplusplus} />
+                    <TextTag label="C" img={c} />
+                </div>
+
             </div>
             <div className="skills__type__wrapper">
                 Frameworks:
-                <TextTag label="ReactJS" img={react}/>
-                <TextTag label="OpenCv" img={opencv}/>
+                <div className="skills__tag__wrapper">
+                    <TextTag label="ReactJS" img={react} />
+                    <TextTag label="OpenCv" img={opencv} />
+                </div>
+
             </div>
             <div className="skills__type__wrapper">
                 Software:
-                <TextTag label="Git" img={git}/>
-                <TextTag label="AutoCad" img={autocad}/>
-                <TextTag label="SolidWorks" img={solidworks}/>
+                <div className="skills__tag__wrapper">
+                    <TextTag label="Git" img={git} />
+                    <TextTag label="AutoCad" img={autocad} />
+                    <TextTag label="SolidWorks" img={solidworks} />
+                </div>
             </div>
         </div>
     )
