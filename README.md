@@ -1,5 +1,5 @@
 This is my Personal Portfolio Website. It was built on React. See it here!
-(http://jamiekuesel.com).
+(https://jamiekuesel.com).
 
 # Getting Started with Create React App
 
