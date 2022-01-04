@@ -20,7 +20,6 @@ import git from "../../../../Resources/Pictures/Logos/git.png"
 import autocad from "../../../../Resources/Pictures/Logos/autocad.png"
 import solidworks from "../../../../Resources/Pictures/Logos/solidworks.png"
 
-
 const Skills = () => {
 
     return (
