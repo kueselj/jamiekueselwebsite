@@ -10,7 +10,7 @@ import python from "../../../../Resources/Pictures/Logos/python.png"
 import html from "../../../../Resources/Pictures/Logos/html.png"
 import css from "../../../../Resources/Pictures/Logos/css.png"
 import javascript from "../../../../Resources/Pictures/Logos/javascript.png"
-import cplusplus from "../../../../Resources/Pictures/Logos/c++.png"
+import cplusplus from "../../../../Resources/Pictures/Logos/cplusplus.png"
 import c from "../../../../Resources/Pictures/Logos/c.png"
 
 import react from "../../../../Resources/Pictures/Logos/react.png"
